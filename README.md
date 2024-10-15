@@ -196,7 +196,3 @@ python manage.py test
 4. **JWT Authentication:**
    - Used `djangorestframework-simplejwt` for secure API access.
    - Tokens provide short-lived access to endpoints, improving security.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
