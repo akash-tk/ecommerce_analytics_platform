@@ -83,6 +83,10 @@ Make sure you have the following installed:
     DATABASE_HOST=localhost
     DATABASE_PORT=3306
 
+   # JWT Token Lifetimes
+    ACCESS_TOKEN_LIFETIME=your_access_token_lifetime_in_minutes
+    REFRESH_TOKEN_LIFETIME=your_refresh_token_lifetime_in_days
+
    ```
 
    Open the settings.py file and ensure that the database settings use the values from the .env file. Your settings.py should look like this:
